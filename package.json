@@ -1,0 +1,16 @@
+{
+  "name": "foo-bar-lee",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "npm run build && node dist/index.js"
+  },
+  "main": "index.js",
+  "devDependencies": {
+    "typescript": "2.2.1"
+  },
+  "dependencies": {
+    "@types/request": "0.0.41",
+    "request": "^2.81.0"
+  }
+}
